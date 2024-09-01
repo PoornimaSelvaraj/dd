@@ -1,0 +1,129 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Top Navigation Bar */
+.topnav {
+    overflow: hidden;
+    background-color: blue;
+    text-align: left;
+    font-size: medium;
+}
+.topnav p {
+    font-size: x-large;
+    font-weight: 100;
+    color: black;
+    align-items: center;
+}
+
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Container and Side Styles */
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-side {
+    width: 30%;
+    background-color: whitesmoke;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.right-side {
+    width: 70%;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    box-sizing: border-box;
+    color: white;
+    background-image: url("pexels-rafael-guajardo-194140-604684.jpg");
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center the text horizontally within the flex container */
+}
+
+/* Button Section */
+.button-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Watch Button */
+.watch-button {
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: transparent;
+    border: 2px solid;
+}
+
+.watch-button:hover {
+    background-color: white;
+
+}
+
+/* Subscribe Button */
+.subscribe-button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.subscribe-button:hover {
+    background-color: white;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    color: black;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer button {
+    background-color: palegreen;
+    color: brown;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer button:hover {
+    background-color: rgb(31, 31, 35);
+}
